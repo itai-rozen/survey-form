@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 id="title">my pimpin' survey form </h1>
+    <div id="description"> this is an example of a survey form</div>
+    <form action="" id="survey-form">
+        <label for="name" id="name-label">NAME:</label>
+        <input type="text" id="name" placeholder="Jeff" required> <br />
+        <label for="email" id="email-label">Email:</label>
+        <input type="email" id="email" required placeholder="e.g john@doe.com"> <br />
+        <label for="number" id="number-label">Age (optional):</label>
+        <input type="number" id="number" min="10" max="99" placeholder="10-99"> <br />
+        Which option best describes your current role? &nbsp; 
+        <select id="dropdown" name="roles" id="roles">
+            <option value="sexy pharmacist">sexy pharmacist</option>
+            <option value="nasty lawyer">nasty lawyer</option>
+            <option value="unemployed">unemployed</option>
+        </select> <br />
+        What kind of a person are you? <br /> 
+        <input type="radio" name="radios" id="radio1">
+        <label for="radio1">dog person</label>
+        <input type="radio" name="radios" id="radio2">
+        <label for="radio2">cat person</label>
+        <input type="radio" name="radios" id="radio3">
+        <label for="radio3">pancake</label> 
+        <br />
+        Check one or more of the checkboxes <br />
+
+        <input type="checkbox" name="checkbox" id="checkbox1" value="love">
+        <label for="checkbox1">i love checking boxes</label>
+        <br />
+        <input type="checkbox" name="checkbox" id="checkbox2" value="hate">
+        <label for="checkbox2">i hate checking boxes</label>
+        <br />
+        <input type="checkbox" name="checkbox" id="checkbox3" value="ambivalent">
+        <label for="checkbox3">i have mixed feelings about checking boxes</label>
+        <br />
+        <input type="checkbox" name="checkbox" id="checkbox4" value="pancake" checked>
+        <label for="checkbox4">pancake</label>
+        <br />
+        <br />
+        Here you can write whatever the fuck you want: <br />
+        <textarea name="free-text" id="textarea" cols="50" rows="10"></textarea>
+        <br />
+        <input type="submit" id="submit">
+    </form>
+</body>
+</html>

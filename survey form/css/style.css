@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+
+body {
+    /* background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.7)); */
+    background-image: url("https://www.thespruce.com/thmb/cVMUwfKW1bVBrSGXla8A7aiFUlo=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/duck-big-bill-59ef8e5068e1a2001072c89e.jpg");
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    font-family: Gotu;
+}
+
+#description {
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.3);
+    font-weight: 600;
+    text-align: center;
+}
+input {
+    height: 30px;
+    margin: 0 15px;
+}
+form {
+    background: repeating-linear-gradient(45deg,yellow , cyan,magenta);
+    font-weight: 400;
+    font-size: 1.5em;
+    width: 600px;
+    margin: 20px auto;
+    line-height: 40px;
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow:1px 1px 5px 5px rgba(100, 100, 100, 0.7);
+}
+
+label {
+    font-size: 1em;
+}
+
+#submit {
+    width: 100px;
+    margin:  auto;
+    outline-style: none;
+}
